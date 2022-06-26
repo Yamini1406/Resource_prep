@@ -1,0 +1,22 @@
+https://www.programiz.com/java-programming/anonymous-class
+https://stackoverflow.com/questions/13670991/can-we-instantiate-an-abstract-class
+
+During one of my interview, I was asked "If we can instantiate an abstract class?"
+
+My reply was "No. we can't". But, interviewer told me "Wrong, we can."
+
+I argued a bit on this. Then he told me to try this myself at home.
+
+abstract class my {
+    public void mymethod() {
+        System.out.print("Abstract");
+    }
+}
+
+class poly {
+    public static void main(String a[]) {
+        my m = new my() {};
+        m.mymethod();
+    }
+}
+Here, I'm creating instance of my class and calling method of abstract class. Can anyone please explain this to me? Was I really wrong during my interview?
