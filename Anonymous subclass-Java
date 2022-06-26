@@ -1,5 +1,7 @@
 https://www.programiz.com/java-programming/anonymous-class
 https://stackoverflow.com/questions/13670991/can-we-instantiate-an-abstract-class
+https://stackoverflow.com/questions/30957268/how-to-instantiate-an-abstract-class-in-java#:~:text=You%20can%27t%20instantiate%20an%20abstract%20class.%20You%20have,%3D%20new%20EmployeeFileProcessor%20%28%29%20%7B%20%7D%3B%20%28Not%20recommended%29
+https://stackoverflow.com/questions/23327493/instantiating-subclasses-in-java
 
 During one of my interview, I was asked "If we can instantiate an abstract class?"
 
